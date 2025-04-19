@@ -1,22 +1,35 @@
+@font-face {
+    font-family: modern-farmhouse;
+    src: url(modern-farmhouse.woff2);
+}
+
+h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
 html {
     background: #400140;
     color: white;
 
-    font-family: sans-serif;
+    font-family: modern-farmhouse;
 
-    font-size: 24px;
+    font-size: 32px;
 }
 
 h1 {
     color: yellow;
 
-    font-family: fantasy;
-
-    font-size: 150%;
+    font-size: 200%;
 }
 
 a {
     color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: yellow;
 }
 
 li img {
