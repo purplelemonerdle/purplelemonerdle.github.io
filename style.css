@@ -1,0 +1,17 @@
+html {
+    background: #400140;
+    color: white;
+
+    font-family: sans-serif;
+}
+
+h1 {
+    color: yellow;
+
+    font-family: fantasy;
+
+}
+
+a {
+    color: orange;
+}
