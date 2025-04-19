@@ -58,5 +58,5 @@ li + li {
 }
 
 body > img:first-child {
-    border: 3px solid black;
+    border: 5px solid black;
 }
