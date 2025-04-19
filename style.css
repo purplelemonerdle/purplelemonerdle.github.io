@@ -3,9 +3,13 @@
     src: url(modern-farmhouse.woff2);
 }
 
-h1, ul {
+h1, h2, ul, p {
     margin: 0;
     padding: 0;
+}
+
+h1 img {
+    height: 50px;
 }
 
 html {
@@ -20,7 +24,7 @@ html {
 h1 {
     color: yellow;
 
-    font-size: 200%;
+    font-size: 300%;
 }
 
 a {
@@ -37,3 +41,21 @@ li img {
     top: 5px;
     margin-right:5px;
     }
+
+
+li > a:has(img):has(h2) {
+    display: flex;
+}
+li a img {
+    margin-right: 30px;
+    width: 280px;
+    height: 158px;
+    object-fit: contain;
+}
+li + li {
+    margin-top: 20px
+}
+
+body > img:first-child {
+    border: 3px solid black;
+}
